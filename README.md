@@ -29,3 +29,9 @@ Typical Locations:
 - macOs: /Applications/wkhtmltopdf.app/Contents/MacOS/wkhtmltopdf
 
 - Windows: C:/Program Files/wkhtmltopdf/bin/wkhtmltopdf.exe
+
+### 5: Run the program!
+
+1. Clean out output folder
+2. Clean out input folder and add new files (check input folder readme)
+3. `python3 ss_nametag_tool.py '{name_of_xlsx_file_in_input_directory.xlsx}' '{name_of_logo_file_in_input_directory.png}'`

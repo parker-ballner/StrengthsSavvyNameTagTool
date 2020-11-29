@@ -1,1 +1,1 @@
-C:/Program Files/wkhtmltopdf/bin/wkhtmltopdf.exe
+/usr/local/bin/wkhtmltopdf

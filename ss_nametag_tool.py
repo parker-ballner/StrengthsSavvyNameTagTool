@@ -33,7 +33,8 @@ pdf_options = {
     'margin-bottom': '0',
     'margin-left': '0',
     'no-outline': None,
-    'disable-smart-shrinking': ''
+    'disable-smart-shrinking': '',
+    'enable-local-file-access': '',
 }
 def buildHtml():
   #aquire the data
