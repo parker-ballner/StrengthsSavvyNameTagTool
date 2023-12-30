@@ -1,0 +1,7 @@
+.DS_Store
+input/*.xlsx
+input/*.jpg
+input/*.png
+output/*.html
+output/*.pdf
+output/digital
