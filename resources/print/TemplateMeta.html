@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Strengths Savvy Name Tags - {{title}}</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Strengths Savvy Name Tag Example Output">
+  <meta name="author" content="Parker Ballner">
+  <style>
+    body {
+      width: 100%;
+      height: 100%;
+      background-color: #ffffff;
+      font-family: Arial Black;
+      margin: 0;
+    }
+
+    .page {
+      width: 280mm;
+      height: 216mm;
+      display: block;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    table {
+      width: 100%;
+      height: 100%;
+    }
+
+    .nameTag {
+      width: 33%;
+      height: 50%;
+      vertical-align: auto;
+    }
+
+    .logoImg {
+      max-height: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+
+    .namePara {
+      text-align: center;
+      margin-bottom: 1.5em;
+    }
+
+    .nameSpan {
+      width: 100%;
+      font-size: 16pt;
+      font-family: Arial Black;
+      font-weight: 400
+    }
+
+    .strengthEntry {
+      width: 85%;
+      margin-bottom: -10px;
+      margin-left: auto;
+      margin-right: auto;
+      vertical-align: top;
+      text-align: center
+    }
+
+    .executing {
+      background-color: #7030a0;
+    }
+
+    .influencing {
+      background-color: #ffc000;
+    }
+
+    .strategicThinking {
+      background-color: #00b050;
+    }
+
+    .relationshipBuilding {
+      background-color: #0070c0;
+    }
+
+    .strengthLabel {
+      padding-top: 5pt;
+      padding-bottom: 5pt;
+      color: #ffffff;
+      font-weight: 400;
+      font-size: 14pt;
+      font-family: Arial Black;
+      font-style: normal;
+    }
+
+    @page {
+      size: Letter landscape;
+      margin: 0;
+    }
+
+    @media print {
+
+      html,
+      body {
+        width: 279mm;
+        height: 216mm;
+      }
+
+      .page {
+        margin: 0;
+        border: initial;
+        border-radius: initial;
+        width: 279mm;
+        height: 216mm;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always;
+      }
+    }
+  </style>
+</head>
+
+<body>
+{{pages}}
+</body>

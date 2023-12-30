@@ -1,0 +1,1 @@
+Output directory for the program. Once the program is successfully run, the name tags will be present in html and pdf formats.

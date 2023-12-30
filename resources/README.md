@@ -1,0 +1,1 @@
+The resources directory contains the html files used to build the name tag documents.

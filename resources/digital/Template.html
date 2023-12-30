@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Strengths Savvy Name Tags - {{title}}</title>
+  <meta charset="UTF-8" />
+  <meta
+    name="description"
+    content="Strengths Savvy Name Tag Digital Background"
+  />
+  <meta name="author" content="Parker Ballner" />
+  <style>
+    body {
+      width: 100%;
+      height: 100%;
+      background-color: #ffffff;
+      font-family: Arial Black;
+      margin: 0;
+    }
+
+    .page {
+      width: 1280px;
+      height: 720px;
+      display: block;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    .executing_bg {
+      background-color: rgb(140, 82, 255);
+    }
+
+    .influencing_bg {
+      background-color: rgb(255, 223, 43);
+    }
+
+    .strategicThinking_bg {
+      background-color: rgb(86, 200, 37);
+    }
+
+    .relationshipBuilding_bg {
+      background-color: rgb(82, 113, 255);
+    }
+
+    table {
+      width: 100%;
+      height: 100%;
+    }
+
+    .nameTag {
+      margin-top: 41px;
+      margin-left: 40px;
+      background-color: #ffffff;
+      width: 29%;
+      height: 62.4%;
+    }
+
+    .logoImg {
+      max-height: 90px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      padding-top:  5px;
+    }
+
+    .namePara {
+      text-align: center;
+      margin-bottom: 1.5em;
+    }
+
+    .nameSpan {
+      width: 100%;
+      font-size: 19pt;
+      font-family: Arial Black;
+      font-weight: 400;
+    }
+
+    .strengthEntry {
+      width: 97%;
+      margin-bottom: -13px;
+      margin-left: auto;
+      margin-right: auto;
+      vertical-align: top;
+      text-align: center;
+    }
+
+    .executing {
+      background-color: #7030a0;
+    }
+
+    .influencing {
+      background-color: #ffc000;
+    }
+
+    .strategicThinking {
+      background-color: #00b050;
+    }
+
+    .relationshipBuilding {
+      background-color: #0070c0;
+    }
+
+    .strengthLabel {
+      padding-top: 7pt;
+      padding-bottom: 7pt;
+      color: #ffffff;
+      font-weight: 400;
+      font-size: 16pt;
+      font-family: Arial Black;
+      font-style: normal;
+    }
+
+    @page {
+      size: Letter landscape;
+      margin: 0;
+    }
+
+    @media print {
+      html,
+      body {
+        width: 1280px;
+        height: 720px;
+      }
+
+      .page {
+        margin: 0;
+        border: initial;
+        border-radius: initial;
+        width: 1280px;
+        height: 720px;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always;
+        background-color: #0070c0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page {{topstrength}}_bg">
+    <div class="nameTag">
+      <img class="logoImg" src="{{logo}}" />
+      <p class="namePara">
+        <span class="nameSpan"> {{name}} </span>
+      </p>
+      <span class="strengthList">
+        <div class="strengthEntry {{strengthType}}">
+          <p class="strengthLabel">{{strength}}</p>
+        </div>
+        <div class="strengthEntry {{strengthType}}">
+          <p class="strengthLabel">{{strength}}</p>
+        </div>
+        <div class="strengthEntry {{strengthType}}">
+          <p class="strengthLabel">{{strength}}</p>
+        </div>
+        <div class="strengthEntry {{strengthType}}">
+          <p class="strengthLabel">{{strength}}</p>
+        </div>
+        <div class="strengthEntry {{strengthType}}">
+          <p class="strengthLabel">{{strength}}</p>
+        </div>
+      </span>
+    </div>
+  </div>
+</body>
